@@ -1,8 +1,10 @@
 import { Post } from './Post'
+import { Header } from './components/Header'
 
 export function App() {
   return (
     <>
+      <Header />
       <Post
         author="Ryan Vieira"
         content="Aliqua velit irure occaecat exercitation aliqua."
