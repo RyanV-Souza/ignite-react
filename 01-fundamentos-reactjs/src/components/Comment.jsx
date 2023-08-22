@@ -20,17 +20,18 @@ export function Comment() {
               >
                 Cerca de 1h atrás
               </time>
-
-              <button title="Deletar comentário">
-                <Trash size={20} />
-              </button>
             </div>
+            <button type="submit" title="Deletar comentário">
+              <Trash size={20} />
+            </button>
           </header>
           <p>Muito bom Devon, parabéns!! 👏👏</p>
         </div>
         <footer>
-          <ThumbsUp />
-          Aplaudir <span>20</span>
+          <button>
+            <ThumbsUp />
+            Aplaudir <span>20</span>
+          </button>
         </footer>
       </div>
     </div>
